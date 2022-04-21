@@ -20,34 +20,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:src="@drawable/ic_icon_food"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="20dp"
-        app:layout_constraintVertical_bias="0" />
-
-
-
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginTop="160dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/img_bg"
-        app:layout_constraintVertical_bias="0"
-        app:lottie_autoPlay="true"
-        app:lottie_rawRes="@raw/hamburger" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

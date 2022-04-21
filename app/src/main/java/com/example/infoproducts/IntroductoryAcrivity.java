@@ -19,13 +19,9 @@ public class IntroductoryAcrivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_introductory_acrivity);
 
-        logo = findViewById(R.id.logo);
         splash_images = findViewById(R.id.img_bg);
-        lottieAnimationView = findViewById(R.id.lottie);
 
-        logo.animate().translationY(1400).setDuration(1000).setStartDelay(4000);
-        splash_images.animate().translationY(-1800).setDuration(1000).setStartDelay(4000);
-        lottieAnimationView.animate().translationY(1400).setDuration(1000).setStartDelay(4000);
+        splash_images.animate().translationY(-1800).setDuration(1000).setStartDelay(2000);
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -35,7 +31,7 @@ public class IntroductoryAcrivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5100);//Ст
+        }, 3200);//Ст
 
 
     }
