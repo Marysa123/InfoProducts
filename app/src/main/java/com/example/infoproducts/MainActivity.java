@@ -35,14 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this,ArrayInfo.class);
                 startActivity(intent);
 
-                dbHandler = new DBHandler(MainActivity.this);
-                boolean insert = dbHandler.insertIntoData(1,"Колбаса","шт","ООО Мангал","1004","67.00","67","4489", "Прибытие","05.05.2022");
-                if (insert == true){
-                    Toast.makeText(MainActivity.this, "Yes", Toast.LENGTH_SHORT).show();
-                }
-                else {
-                   Toast.makeText(MainActivity.this, "No", Toast.LENGTH_SHORT).show();
-                }
+            }
+        });
+        findViewById(R.id.button_addPage).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,addTovarPage.class);
+                startActivity(intent);
             }
         });
     }

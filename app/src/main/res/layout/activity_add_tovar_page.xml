@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addTovarPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Номер товара:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Id_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Название товара:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Name_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Единицы измерения:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Edin_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Поставщик товара:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Post_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Номер документа:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Numer_doc_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Цена товара:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Chena_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Количество:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/KolTovara_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Сумма товара:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Summa_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Тип товара:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Type_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:text="Дата прибытия:"
+            android:textAlignment="textStart"
+            android:textColor="#948A8A"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/DataPrib_txt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_addTovar"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/gradient_btn"
+            android:fontFamily="sans-serif-smallcaps"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Добавить товар"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.924"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img"
+            app:layout_constraintVertical_bias="0.507" />
+    </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
